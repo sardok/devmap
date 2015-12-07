@@ -1,5 +1,13 @@
 # devmap
-Various SoC peripheral implementations based on memory map.
+SoC peripheral library.
+
+## Keynotes ##
+
+This library maps `/dev/mem` and uses memory region associated to the peripheral.
+
+[mmap](https://docs.python.org/2/library/mmap.html) from standard library is used.
+
+Implementation is in pure python.
 
 ## Supported peripherals ##
 
