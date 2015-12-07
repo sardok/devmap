@@ -62,3 +62,6 @@ target/
 venv/
 .idea/
 
+# Emacs backup files
+*~
+\#*\#
