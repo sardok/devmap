@@ -28,8 +28,6 @@ from devmap.rpi.gpio import GPIO
 # Read input from GPIO 21
 gio_21 = GPIO(21, 'in')
 gio_21.read()
-# Push the button
-gio_21.read()
 
 # Write to particular pin
 gio_out = GPIO(2, 'out')
