@@ -5,7 +5,7 @@ SoC peripheral library.
 
 This library maps `/dev/mem` and uses memory region associated to the peripheral.
 
-[mmap](https://docs.python.org/2/library/mmap.html) from standard library is used.
+The mapping is done by [mmap](https://docs.python.org/2/library/mmap.html) function from standard library.
 
 Implementation is in pure python.
 
